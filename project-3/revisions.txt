@@ -1,0 +1,73 @@
+commit df2cbb10fb7c8de7d2fee6e6da3206eeb0b239e0
+Author: Youssef M Naguib <ymn4543@cs.rit.edu>
+Date:   Thu Nov 28 15:58:16 2019 -0500
+
+    fixed some final errors, program matches output from write up
+
+commit 35c916ea53ef0fe6fa2d4eed7cf50735aa8b5dc1
+Author: Youssef M Naguib <ymn4543@cs.rit.edu>
+Date:   Thu Nov 28 14:55:41 2019 -0500
+
+    added comments, docstrings, and fixed style for all relevant files.
+
+commit 5ca6bdd72f39d8b3a173e727ecc2bfd80b1f5ca6
+Author: Youssef M Naguib <ymn4543@cs.rit.edu>
+Date:   Tue Nov 26 02:25:57 2019 -0500
+
+    added comments and fixed style for offspring.c
+
+commit bee27d766e1366fd6594ffb36392017482e5e29f
+Author: Youssef M Naguib <ymn4543@cs.rit.edu>
+Date:   Tue Nov 26 01:06:56 2019 -0500
+
+    inplemented all commands and handled all errors
+
+commit ca34f7bca73eaf295f2055087cb96ce0583751b6
+Author: Youssef M Naguib <ymn4543@cs.rit.edu>
+Date:   Sat Nov 23 03:21:46 2019 -0500
+
+    added implementation for add, find , print and quit commands
+
+commit f1a1f8940e6e9393c697077860d0b1845b603321
+Author: Youssef M Naguib <ymn4543@cs.rit.edu>
+Date:   Wed Nov 20 01:38:08 2019 -0500
+
+    changed tree structure and reading in file now works
+
+commit 0d86a07c2efb3664b1f00e72c42e09aa50c7e172
+Author: Youssef M Naguib <ymn4543@cs.rit.edu>
+Date:   Mon Nov 18 00:59:17 2019 -0500
+
+    refined search and add functions in tree.c, testing in main program
+
+commit 2fb5afeb83f7c03681493b96540197d2537a01b1
+Author: Youssef M Naguib <ymn4543@cs.rit.edu>
+Date:   Sat Nov 16 13:29:04 2019 -0500
+
+    queue.c has no errors, compiles cleanly
+
+commit 953c4b1b45b279b63bc71c98494d74456c3f4f30
+Author: Youssef M Naguib <ymn4543@cs.rit.edu>
+Date:   Sat Nov 16 01:59:54 2019 -0500
+
+    implemented queue functions
+
+commit 71d443547ec4e1618e9410030cdb149213e1df07
+Author: Youssef M Naguib <ymn4543@cs.rit.edu>
+Date:   Thu Nov 14 00:17:38 2019 -0500
+
+    added queue struct to header file
+
+commit 555e2679bf046dd0a7fc6456be4cb9ade6325010
+Author: Youssef M Naguib <ymn4543@cs.rit.edu>
+Date:   Thu Nov 14 00:16:03 2019 -0500
+
+    implemented header files, started queue implementation as well as tree
+    functions
+
+commit ebc542211aadd164397bf9c4fb355c0c7f096ab8
+Author: Youssef M Naguib <ymn4543@cs.rit.edu>
+Date:   Wed Nov 13 21:23:01 2019 -0500
+
+    started main program implementation. Can read command line args and trim
+    commands.

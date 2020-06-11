@@ -1,0 +1,75 @@
+Assignment Report
+Assignment name is: Brace-topia
+
+My name is: Youssef Naguib
+My login ID is:	ymn4543
+
+[insert your answers after the question and add more lines as needed.]
+
+[PLEASE MAKE YOUR ANSWERS SHORT AND TO THE POINT. BULLET POINTS ARE GOOD.]
+
+============= PROGRAM STATUS ==============
+
+What is the status of the program?
+Does it: put an X inside the [] for your answer
+	[] crash?
+	[] infinite loop when it should not?
+	[] only work in printed mode?
+	[x] work fine?
+	[] only implement these options: [list them below]
+	[] other? Explain below.
+
+
+How does your move algorithm work? Describe briefly in English.
+	
+	My move algorithm finds the first available vacant spot in the array, and
+	moves the respective agent to that location. The spot left vacant by the moved 
+	agent cannot be occupied during that cycle by another moving agent.
+
+
+
+============= SIMULATION ANALYSIS ==============
+
+What did you find most revealing about the simulation?
+
+	Most times, the simulation requires less moves each round until it begins
+	alternating between a few possibilites. A completly satisfied neighborhood
+	of agents is not always found. 
+
+
+
+============= GENERAL PROJECT FEEDBACK ==============
+
+What did I learn?
+
+	- How to shuffle a 2d array.
+	- How to pass char arrays as params.
+	- How to format printing floats
+	- How to use and handle command line arguments and their exceptions
+	- A lot about how C works, including syntax, type casting
+
+What was easy about this assignment?
+	
+	- Finding average happiness in neighborhood
+	- Choosing infinite/print mode, displaying correct output
+
+
+What gave you problems or troubles?
+
+	- Populating and shuffling the array
+	- The move function
+	- Happiness measure function, getting # of neighbors while staying in bound
+	- Command line arguments, accessing them and handling error output
+
+What should the instructor do to improve this assignment?
+
+	I think the insturctions were very clear. One thing I would add is whether 
+	the program should continue to run if user puts -h as a command line arg.
+
+
+What would you have liked to do in this assignment?
+
+	I would have liked to compare different move functions and figure out if
+	any of them are more efficient in finding the optimal layout of the grid.
+
+

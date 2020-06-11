@@ -1,0 +1,66 @@
+commit e3af70cd8e1c50c34006e091572605db1fa0ad87
+Author: Youssef M Naguib <ymn4543@cs.rit.edu>
+Date:   Tue Oct 29 00:39:03 2019 -0400
+
+    final corrections
+
+commit 1bfaee34cbff4340a797d016a5729320148b7561
+Author: Youssef M Naguib <ymn4543@cs.rit.edu>
+Date:   Tue Oct 29 00:34:01 2019 -0400
+
+    added error handling
+
+commit 552740dd6aacfea74e442fd6ac288ae7f4fcb8a8
+Author: Youssef M Naguib <ymn4543@cs.rit.edu>
+Date:   Mon Oct 28 20:27:34 2019 -0400
+
+    fixed all memory leaks! Program has 0 leaks.
+
+commit 4ad458d1e02514b068f9563e27bb514bc286053e
+Author: Youssef M Naguib <ymn4543@cs.rit.edu>
+Date:   Mon Oct 28 01:35:29 2019 -0400
+
+    added proper documentation and followed style guidelines
+
+commit 8c9ca111bc768aae44592f783c977b05fbc869c0
+Author: Youssef M Naguib <ymn4543@cs.rit.edu>
+Date:   Mon Oct 28 00:30:14 2019 -0400
+
+    added ternary operation functionality
+
+commit 9a06b80ae2b58c53d1236183341b83016b46414c
+Author: Youssef M Naguib <ymn4543@cs.rit.edu>
+Date:   Wed Oct 23 02:11:26 2019 -0400
+
+    implemented functionalty for assignment operations
+
+commit a164ccbae5d091710bb68f95f24012179cec7e30
+Author: Youssef M Naguib <ymn4543@cs.rit.edu>
+Date:   Wed Oct 23 01:40:48 2019 -0400
+
+    got interp main function running, symbol table and stack work fine, can
+    do simple expressions
+
+commit 13e10dcabbb19892c94b41b25a323ab4dc010cd1
+Author: Youssef M Naguib <ymn4543@cs.rit.edu>
+Date:   Sun Oct 20 17:33:02 2019 -0400
+
+    implemented tree_node.c
+
+commit 38ad4a54a3f21838dba506a870176559a8ad3e5a
+Author: Youssef M Naguib <ymn4543@cs.rit.edu>
+Date:   Sun Oct 20 17:32:38 2019 -0400
+
+    made skeleton main function of interp.c
+
+commit 6950c83bf765fd0cc03f8c893ca3e991e6e11646
+Author: Youssef M Naguib <ymn4543@cs.rit.edu>
+Date:   Sun Oct 20 17:32:12 2019 -0400
+
+    finished implementation of symtab.c
+
+commit 66429b018a5a4d9d02f8cefa2afe0742c788c860
+Author: Youssef M Naguib <ymn4543@cs.rit.edu>
+Date:   Thu Oct 17 01:42:48 2019 -0400
+
+    implemented stack.c, starting working on symtab.c and interp.c

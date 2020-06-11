@@ -1,0 +1,31 @@
+commit 84a91e65a705de79c97980a35dfcdaed4d7a09cb
+Author: Youssef M Naguib <ymn4543@cs.rit.edu>
+Date:   Tue Sep 24 01:56:49 2019 -0400
+
+    fixed a bug in the average happiness function, where agent had no
+    neighbors
+
+commit 317b0b503ae8263a8924903b1e2385a5af2a35f2
+Author: Youssef M Naguib <ymn4543@cs.rit.edu>
+Date:   Mon Sep 23 03:36:42 2019 -0400
+
+    added docstrings and fixed style. still some small things to fix format
+    wise.
+
+commit d8731ff9f2e5600c3162bbb22ee4aaead0668e20
+Author: Youssef M Naguib <ymn4543@cs.rit.edu>
+Date:   Mon Sep 23 02:27:09 2019 -0400
+
+    small bug fixes, output fixes
+
+commit 6f55ff90aaef18fb4a6904d295f60812261d2af8
+Author: Youssef M Naguib <ymn4543@cs.rit.edu>
+Date:   Mon Sep 23 02:09:02 2019 -0400
+
+    finished error handling for command line args
+
+commit 2a2c897e5410f71d0d82469035ad43b17ffeb58b
+Author: Youssef M Naguib <ymn4543@cs.rit.edu>
+Date:   Mon Sep 23 01:05:37 2019 -0400
+
+    implemented main functions and command line args
