@@ -1,0 +1,48 @@
+commit 55d000661a95c06fc8dafdc42c5ad241d7e2bdaa
+Author: Youssef M Naguib <ymn4543@cs.rit.edu>
+Date:   Sat Nov 9 21:38:07 2019 -0500
+
+    no memory leaks
+
+commit b23cb8116245db11fbe4f43091c60c58c9cee14c
+Author: Youssef M Naguib <ymn4543@cs.rit.edu>
+Date:   Sat Nov 9 21:35:07 2019 -0500
+
+    added proper documentation and followed style guidelines.
+
+commit c8ae78e72ef3b5135930cf45ac02afd9ce4dadca
+Author: Youssef M Naguib <ymn4543@cs.rit.edu>
+Date:   Sat Nov 9 21:14:39 2019 -0500
+
+    implemented set members function
+
+commit aa8a9d63161903bda0b96ed395058ae2f38418cc
+Author: Youssef M Naguib <ymn4543@cs.rit.edu>
+Date:   Sat Nov 9 20:59:30 2019 -0500
+
+    implemented cardinality function
+
+commit d16bcc7fdb021f1fa705e668579260cf2fa2fbe3
+Author: Youssef M Naguib <ymn4543@cs.rit.edu>
+Date:   Sat Nov 9 18:24:41 2019 -0500
+
+    added encoding of files
+
+commit 5d7d87162a632ea6d079fcba6d2ff7b7923d116c
+Author: Youssef M Naguib <ymn4543@cs.rit.edu>
+Date:   Sat Nov 9 16:12:45 2019 -0500
+
+    implemented symmetric difference
+
+commit 23bb6d3b76c40c71fc7771199c2247e00431e1a4
+Author: Youssef M Naguib <ymn4543@cs.rit.edu>
+Date:   Sat Nov 9 15:45:33 2019 -0500
+
+    implemented string encoding, set union, difference, complement, and
+    intersection. Still need to do file encoding and other operations
+
+commit 185c53481fb16c7fd5bfbe6b97345cc77be3db8b
+Author: Youssef M Naguib <ymn4543@cs.rit.edu>
+Date:   Sat Nov 9 14:16:15 2019 -0500
+
+    started main function, working on encoding the strings/ files

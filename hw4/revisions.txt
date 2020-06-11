@@ -1,0 +1,57 @@
+commit 695a394c159b2f8f0ac47cacba102278efb98385
+Author: Youssef M Naguib <ymn4543@cs.rit.edu>
+Date:   Thu Oct 3 21:56:27 2019 -0400
+
+    used strncpy instead of strcpy in parse.c duplicate func
+
+commit 0ed249c49347ce4124b30d947e73267825b17abc
+Author: Youssef M Naguib <ymn4543@cs.rit.edu>
+Date:   Thu Oct 3 16:59:56 2019 -0400
+
+    fixed ouput issues, freed fields[1] and fields[2] inside emp.c not
+    parse.c, all allocated memory is now freed and there are no memory
+    leaks.
+
+commit 5078384ee46436e9768d49b0dea10ddf247063bb
+Author: Youssef M Naguib <ymn4543@cs.rit.edu>
+Date:   Thu Oct 3 16:23:29 2019 -0400
+
+    final commit
+
+commit 53ea0b6851fca3e47e5ccec5bc8ada7f1c28d184
+Author: Youssef M Naguib <ymn4543@cs.rit.edu>
+Date:   Thu Oct 3 16:22:48 2019 -0400
+
+    freed fields[1] and fields[2];
+
+commit 858eef39095fe0c050b9b5e8a8d643659532e6d0
+Author: Youssef M Naguib <ymn4543@cs.rit.edu>
+Date:   Wed Oct 2 01:06:20 2019 -0400
+
+    freed buf in duplicate function in parse.c after strcpy finished.
+
+commit 5c96fe9338e0ea7fdb3879c1cd18e5346fa10e58
+Author: Youssef M Naguib <ymn4543@cs.rit.edu>
+Date:   Wed Oct 2 01:02:01 2019 -0400
+
+    fixed error in delete_employees function where we were trying to access
+    memory after freeing it.
+
+commit ebd5fe9620fe847a3ba6c68194e8f9c3dbfb734b
+Author: Youssef M Naguib <ymn4543@cs.rit.edu>
+Date:   Wed Oct 2 00:48:08 2019 -0400
+
+    replaced sizeof with strlen to fix number of bytes being allocated in
+    parse.c
+
+commit aecf1b8deac5cba6192f6ebe71b5ededfc9486e9
+Author: Youssef M Naguib <ymn4543@cs.rit.edu>
+Date:   Wed Oct 2 00:23:13 2019 -0400
+
+    fixed a bug where output was sorted by only time rather than date and time in log.c line 141
+
+commit af1fc70577e3af44dded3d515248b59997a03749
+Author: Youssef M Naguib <ymn4543@cs.rit.edu>
+Date:   Tue Oct 1 03:14:47 2019 -0400
+
+    added a printf function for a newline character in generate_report()

@@ -1,0 +1,24 @@
+commit fa13ffb339cbc391374b37fc8e982a5f4568950c
+Author: Youssef M Naguib <ymn4543@cs.rit.edu>
+Date:   Wed Oct 30 01:54:01 2019 -0400
+
+    fixed final errors regarding memory and cleaned up some code in delete
+    fucntion
+
+commit cc273177d30a6138da0ac8b293eb903fdd93fb7f
+Author: Youssef M Naguib <ymn4543@cs.rit.edu>
+Date:   Wed Oct 30 01:28:05 2019 -0400
+
+    fixed memory leaks, program has 0 possible leaks.
+
+commit b001c43e11501386f64fab2e3114b40b6942e5ca
+Author: Youssef M Naguib <ymn4543@cs.rit.edu>
+Date:   Tue Oct 29 03:51:02 2019 -0400
+
+    added documentation and followed style guidelines
+
+commit dd0cd6f9c3fe21c4c08d06f6e3d44fc2ff2eefbb
+Author: Youssef M Naguib <ymn4543@cs.rit.edu>
+Date:   Tue Oct 29 03:31:21 2019 -0400
+
+    implemeted head functions, output is correct with tests

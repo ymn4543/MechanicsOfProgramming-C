@@ -1,0 +1,30 @@
+commit 44c5176d5b30770275586885af5a27678b162ee2
+Author: Youssef M Naguib <ymn4543@cs.rit.edu>
+Date:   Fri Dec 6 02:13:54 2019 -0500
+
+    added comments and followed style guidelines
+
+commit 216dad7c65cba66d1613125f9c34421dda9de2fe
+Author: Youssef M Naguib <ymn4543@cs.rit.edu>
+Date:   Thu Dec 5 16:34:44 2019 -0500
+
+    fixed small bugs regarding error checking
+
+commit d8b9e069cf2ec34acaca5e9c4d3982282b3d9cea
+Author: Youssef M Naguib <ymn4543@cs.rit.edu>
+Date:   Thu Dec 5 16:11:43 2019 -0500
+
+    implemented command line arg for wait time, fixed all memory leaks
+
+commit d33499c1387d783b6931c8eff31ea1b511b9b662
+Author: Youssef M Naguib <ymn4543@cs.rit.edu>
+Date:   Wed Dec 4 03:40:47 2019 -0500
+
+    did underscosring of names, and set up the racers in their start
+    positions
+
+commit b0300a44edc46010b49c3b1f1ee4653dc9547f70
+Author: Youssef M Naguib <ymn4543@cs.rit.edu>
+Date:   Tue Dec 3 04:38:14 2019 -0500
+
+    implemented racer.c create function and run function
