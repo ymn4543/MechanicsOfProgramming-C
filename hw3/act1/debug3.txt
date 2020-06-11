@@ -1,0 +1,135 @@
+ymn4543@glados:~/Courses/CS243/Homeworks/hw3/act1$ gdb -q good-life
+Reading symbols from good-life...done.
+(gdb) break 144
+Breakpoint 1 at 0xe03: file good-life.c, line 144.
+(gdb) run
+Starting program: /home/stu9/s7/ymn4543/Courses/CS243/Homeworks/hw3/act1/good-life 
+
+	..Welcome to the Game of life..
+
+Please enter the initial number of organisms: 123
+
+Breakpoint 1, main () at good-life.c:144
+144					  printf("%c", life[row][col]); //fix 1
+(gdb) display row
+1: row = 0
+(gdb) display col
+2: col = 0
+(gdb) display life[row][col]
+3: life[row][col] = 2 '\002'
+(gdb) continue
+Continuing.
+
+Breakpoint 1, main () at good-life.c:144
+144					  printf("%c", life[row][col]); //fix 1
+1: row = 0
+2: col = 1
+3: life[row][col] = 0 '\000'
+(gdb) continue
+Continuing.
+
+Breakpoint 1, main () at good-life.c:144
+144					  printf("%c", life[row][col]); //fix 1
+1: row = 0
+2: col = 2
+3: life[row][col] = 0 '\000'
+(gdb) continue 19
+Will ignore next 18 crossings of breakpoint 1.  Continuing.
+???? 
+
+Breakpoint 1, main () at good-life.c:144
+144					  printf("%c", life[row][col]); //fix 1
+1: row = 1
+2: col = 1
+3: life[row][col] = 127 '\177'
+(gdb) continue 79
+Will ignore next 78 crossings of breakpoint 1.  Continuing.
+????? 
+8???? 
+???? 
+&?be???? 
+
+Breakpoint 1, main () at good-life.c:144
+144					  printf("%c", life[row][col]); //fix 1
+1: row = 5
+2: col = 0
+3: life[row][col] = -1 '\377'
+(gdb) continue 23
+Will ignore next 22 crossings of breakpoint 1.  Continuing.
+??????????? 
+
+Breakpoint 1, main () at good-life.c:144
+144					  printf("%c", life[row][col]); //fix 1
+1: row = 6
+2: col = 3
+3: life[row][col] = -9 '\367'
+(gdb) continue
+Continuing.
+
+Breakpoint 1, main () at good-life.c:144
+144					  printf("%c", life[row][col]); //fix 1
+1: row = 6
+2: col = 4
+3: life[row][col] = -1 '\377'
+(gdb) continue
+Continuing.
+
+Breakpoint 1, main () at good-life.c:144
+144					  printf("%c", life[row][col]); //fix 1
+1: row = 6
+2: col = 5
+3: life[row][col] = 127 '\177'
+(gdb) continue
+Continuing.
+
+Breakpoint 1, main () at good-life.c:144
+144					  printf("%c", life[row][col]); //fix 1
+1: row = 6
+2: col = 6
+3: life[row][col] = 0 '\000'
+(gdb) continue
+Continuing.
+
+Breakpoint 1, main () at good-life.c:144
+144					  printf("%c", life[row][col]); //fix 1
+1: row = 6
+2: col = 7
+3: life[row][col] = 0 '\000'
+(gdb) continue
+Continuing.
+
+Breakpoint 1, main () at good-life.c:144
+144					  printf("%c", life[row][col]); //fix 1
+1: row = 6
+2: col = 8
+3: life[row][col] = 0 '\000'
+(gdb) continue
+Continuing.
+
+Breakpoint 1, main () at good-life.c:144
+144					  printf("%c", life[row][col]); //fix 1
+1: row = 6
+2: col = 9
+3: life[row][col] = 0 '\000'
+(gdb) continue
+Continuing.
+
+Breakpoint 1, main () at good-life.c:144
+144					  printf("%c", life[row][col]); //fix 1
+1: row = 6
+2: col = 10
+3: life[row][col] = 0 '\000'
+(gdb) continue
+Continuing.
+
+Breakpoint 1, main () at good-life.c:144
+144					  printf("%c", life[row][col]); //fix 1
+1: row = 6
+2: col = 11
+3: life[row][col] = 0 '\000'
+(gdb)
+
+
+//fix 2: on lines 128,136
+// setting char in matrix requires one = , not ==. I removed one =.
+// 2 equal signs checks whether a value is equal, rather than setting a value. 

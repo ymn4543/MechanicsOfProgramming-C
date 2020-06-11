@@ -1,0 +1,75 @@
+commit 8c36c156f203e59ad3a75c76507f667bf8685a73
+Author: Youssef M Naguib <ymn4543@cs.rit.edu>
+Date:   Mon Sep 16 22:44:18 2019 -0400
+
+    activity 3 part a completion, implemented curser controlled ouput
+
+commit 157d3ce40b40d96762927e0342743abc1b2dda31
+Author: Youssef M Naguib <ymn4543@cs.rit.edu>
+Date:   Mon Sep 16 19:10:42 2019 -0400
+
+    fixed small issue, generation 0 now counts as one of the 100.
+    as opposed to having 101 gens.
+
+commit da24aa035ab6dc68e8400c4f16d37c81d84a0dbf
+Author: Youssef M Naguib <ymn4543@cs.rit.edu>
+Date:   Mon Sep 16 19:07:35 2019 -0400
+
+    activity 2 part c complete, added documentation and made some final
+    fixes to code
+
+commit 29259a4a8984504ef7579819afae3e1c2742eb59
+Author: Youssef M Naguib <ymn4543@cs.rit.edu>
+Date:   Mon Sep 16 03:40:17 2019 -0400
+
+    Completed Activity 2 part B. Optimized code structure, and the game now
+    works. Refractored for matrix wraparound.
+
+commit 36dcef48922cf5628813a3051df3be98b71a893d
+Author: Youssef M Naguib <ymn4543@cs.rit.edu>
+Date:   Mon Sep 16 01:35:38 2019 -0400
+
+    Activity 2 part B3 Completion. Merged rule functions and created helper
+    function for counting neighbors. Reduced repetitive code structure.
+
+commit 82499a4bd6deb63d995ed4cbbfa3934cbfc19d4f
+Author: Youssef M Naguib <ymn4543@cs.rit.edu>
+Date:   Sun Sep 15 19:23:20 2019 -0400
+
+    Activity 2 part B2, refactored matrix passing
+
+commit 1aed5555c9393c2f1ec46faf60ee448c232fbf82
+Author: Youssef M Naguib <ymn4543@cs.rit.edu>
+Date:   Sun Sep 15 18:44:02 2019 -0400
+
+    Activity 2 part B1 completion
+
+commit a514ac3de10339adcbbf8c9e98ce2dfa8294094e
+Author: Youssef M Naguib <ymn4543@cs.rit.edu>
+Date:   Sun Sep 15 18:26:39 2019 -0400
+
+    Activity 2 Part B0 completion
+
+commit 613d32cde9993271a98e6436b6e209d7e7e207e0
+Author: Youssef M Naguib <ymn4543@cs.rit.edu>
+Date:   Sun Sep 15 17:10:33 2019 -0400
+
+    Activity 2 Part A commit
+
+commit 1298733bc37520e9e948fae3dce5ddccc8ddf41f
+Author: Youssef M Naguib <ymn4543@cs.rit.edu>
+Date:   Sun Sep 15 01:33:52 2019 -0400
+
+    Part 1b complete
+
+commit c38230cf1060eda0b3770519aeb5b7609a36d21d
+Author: Youssef M Naguib <ymn4543@cs.rit.edu>
+Date:   Sun Sep 15 00:07:17 2019 -0400
+
+    fix 1 to stop crashes
+
+commit 4565d99496ca57b65298c074f9afdc17e17f04a7
+Author: Youssef M Naguib <ymn4543@cs.rit.edu>
+Date:   Sat Sep 14 23:37:13 2019 -0400
+
+    restarting assigment, initial commit

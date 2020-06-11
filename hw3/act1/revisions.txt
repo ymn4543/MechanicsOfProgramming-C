@@ -1,0 +1,17 @@
+commit 1298733bc37520e9e948fae3dce5ddccc8ddf41f
+Author: Youssef M Naguib <ymn4543@cs.rit.edu>
+Date:   Sun Sep 15 01:33:52 2019 -0400
+
+    Part 1b complete
+
+commit c38230cf1060eda0b3770519aeb5b7609a36d21d
+Author: Youssef M Naguib <ymn4543@cs.rit.edu>
+Date:   Sun Sep 15 00:07:17 2019 -0400
+
+    fix 1 to stop crashes
+
+commit 4565d99496ca57b65298c074f9afdc17e17f04a7
+Author: Youssef M Naguib <ymn4543@cs.rit.edu>
+Date:   Sat Sep 14 23:37:13 2019 -0400
+
+    restarting assigment, initial commit

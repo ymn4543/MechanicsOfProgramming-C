@@ -1,0 +1,101 @@
+Lab 1: System Intro
+Activity 1: questions1.txt, warning.c : 30 points total
+Name: <<< Youssef Naguib  >>>
+
+1. When you first log in, what is the absolute path of your home directory?
+
+    <<< YOUR ANSWER BELOW HERE (and do not remove this line)
+
+	/home/stu9/s7/ymn4543
+
+
+2. What command will list the contents of your current
+working directory, so that it shows the difference between
+files and directories without descending into any directories?
+
+    <<< YOUR ANSWER BELOW HERE (and do not remove this line)
+
+	tree
+
+
+3. What command would you use to change your working directory from
+your home directory to the existing subdirectory Courses/?
+
+    <<< YOUR ANSWER BELOW HERE (and do not remove this line)
+
+	cd Courses
+
+
+4. Within the Courses/ subdirectory, what command would you use to
+create the subdirectory csci243/?
+
+    <<< YOUR ANSWER BELOW HERE (and do not remove this line)
+
+	mkdir csci243
+
+5. When warning.c is compiled as: 
+        gcc -o warning warning.c
+    There is no indication of any warnings/problems, but there are issues.
+    
+    a.) What compiler flags are used to enable the display of warnings?
+    
+        <<< YOUR ANSWER BELOW HERE (and do not remove this line)
+	:  2 points
+		
+    	-Wall , -Wextra
+
+
+    b.) In your own words, explain all warnings from compiling warning.c
+	with the recommended compilation options.
+    
+        <<< YOUR ANSWER BELOW HERE (and do not remove this line)
+	:  4 points
+
+	warning.c:16:9: states that the variable 'b' in the function compute is never actually used for anything.
+	warning.c:23:5: states that the main function can't take only 1 argument, either 0 or 2.
+	warning.c:24:9: states that you cannot have an integer array of size 0.
+	warning.c:24:21: states that there are too many elements in the array. Since it is size 0, and there is 1 element.
+	warning.c:23:15: states that the parameter for the main function 'argc' is never actually used for anything
+	warning.c:17:1: states that the function compute should return an integer, since it is not a void function.
+    
+
+
+
+    c.) Fix warning.c so it compiles without warning and runs correctly to
+	produce the output specified in the code documentation.
+
+	(Your answer is the submitted code.)
+	: 10 points
+    
+    d.) There is a 'super-picky' warning flag; what is it and what problem
+	does it catch in warning.c?
+
+        <<< YOUR ANSWER BELOW HERE (and do not remove this line)
+	:  1 points
+		
+	-pedantic is the super picky warning flag that  doesn't allow
+	an array to be size 0.	
+
+6. What compiler flag compiles C programs using the ISO C99 standard?
+
+    <<< YOUR ANSWER BELOW HERE (and do not remove this line)
+   
+		-std=c99
+
+
+
+7. Put the four steps of compilation process into their proper order from
+first to last.
+
+    A. Link
+    B. Assemble
+    C. Preprocess
+    D. Compile
+    
+    <<< YOUR ANSWER BELOW HERE (and do not remove this line)
+
+	C, D, B, A
+	
+	(Preproccesing, Compilation, Assembling, Linking)
+
+

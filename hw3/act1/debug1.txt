@@ -1,0 +1,56 @@
+gdb -q good-lifeymn4543@glados:~/Courses/CS243/Homeworks/hw3/act1$ gdb -q good-life
+Reading symbols from good-life...done.
+(gdb) run
+Starting program: /home/stu9/s7/ymn4543/Courses/CS243/Homeworks/hw3/act1/good-life 
+
+	..Welcome to the Game of life..
+
+Please enter the initial number of organisms: 123
+
+Program received signal SIGSEGV, Segmentation fault.
+__strlen_avx2 () at ../sysdeps/x86_64/multiarch/strlen-avx2.S:62
+62	../sysdeps/x86_64/multiarch/strlen-avx2.S: No such file or directory.
+(gdb) where
+#0  __strlen_avx2 () at ../sysdeps/x86_64/multiarch/strlen-avx2.S:62
+#1  0x00007ffff7a414d3 in _IO_vfprintf_internal (s=0x7ffff7dd0760 <_IO_2_1_stdout_>, format=0x555555554ff3 "%s", 
+    ap=ap@entry=0x7fffffffe500) at vfprintf.c:1643
+#2  0x00007ffff7a48f26 in __printf (format=<optimized out>) at printf.c:33
+#3  0x0000555555554df8 in main () at good-life.c:144
+(gdb) up
+#1  0x00007ffff7a414d3 in _IO_vfprintf_internal (s=0x7ffff7dd0760 <_IO_2_1_stdout_>, format=0x555555554ff3 "%s", 
+    ap=ap@entry=0x7fffffffe500) at vfprintf.c:1643
+1643	vfprintf.c: No such file or directory.
+(gdb) up
+#2  0x00007ffff7a48f26 in __printf (format=<optimized out>) at printf.c:33
+33	printf.c: No such file or directory.
+(gdb) up
+#3  0x0000555555554df8 in main () at good-life.c:144
+144					  printf("%s", life[row][col]);
+(gdb) list
+139				  
+140			 for(row = 0; row<20; row++)
+141			 {
+142				  for(col = 0; col<20; col++)
+143				  {
+144					  printf("%s", life[row][col]);
+145				  }
+146				  puts(" ");
+147			  }
+148				 
+(gdb) frame N
+No symbol "N" in current context.
+(gdb) break
+Breakpoint 1 at 0x555555554df8: file good-life.c, line 142.
+(gdb) info break
+Num     Type           Disp Enb Address            What
+1       breakpoint     keep y   0x0000555555554df8 in main at good-life.c:142
+(gdb) reak 144
+Undefined command: "reak".  Try "help".
+(gdb) break 144
+Breakpoint 2 at 0x555555554db3: file good-life.c, line 144.
+(gdb) delete breakpoint 1
+(gdb) info break
+Num     Type           Disp Enb Address            What
+2       breakpoint     keep y   0x0000555555554db3 in main at good-life.c:144
+(gdb) 
+

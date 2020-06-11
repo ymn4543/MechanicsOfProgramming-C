@@ -1,0 +1,34 @@
+(gdb) run
+The program being debugged has been started already.
+Start it from the beginning? (y or n) y
+Starting program: /home/stu9/s7/ymn4543/Courses/CS243/Homeworks/hw3/act1/good-life 
+
+	..Welcome to the Game of life..
+
+Please enter the initial number of organisms: 123
+
+Breakpoint 2, main () at good-life.c:144
+144					  printf("%s", life[row][col]);
+(gdb) info break
+Num     Type           Disp Enb Address            What
+2       breakpoint     keep y   0x0000555555554db3 in main at good-life.c:144
+	breakpoint already hit 1 time
+(gdb) display row
+1: row = 0
+(gdb) display col
+2: col = 0
+(gdb) whatis life
+type = char [20][20]
+(gdb) display life[row][col]
+3: life[row][col] = 2 '\002'
+(gdb) next
+
+Program received signal SIGSEGV, Segmentation fault.
+__strlen_avx2 () at ../sysdeps/x86_64/multiarch/strlen-avx2.S:62
+62	../sysdeps/x86_64/multiarch/strlen-avx2.S: No such file or directory.
+(gdb) 
+
+
+//fix 1 occurs on lines 144,156
+//it is a syntax error where the printf function attempts to print a string
+//rather than a char. I changed %s to %c .
